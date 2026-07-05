@@ -1,0 +1,12 @@
+apiversion: v1
+kind: Service
+metadata: 
+    name: medical_svc
+spec:
+selectors:
+  app: ritesh-app
+  ports:
+    - port: 80
+      type: NodePort
+
+~                 
