@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
-metadata: 
+metadata:
   name: medical-pod
   labels:
-    app: ritesh-app
+    app: kunal-app
 spec:
   containers:
-    - name: medical-pod-cont1
+    - name: medical_pod_cont1
       image: aarushtechnologies/medical
